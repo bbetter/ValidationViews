@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValidatableEdit">
+        <attr name="inputType" format="enum">
+            <enum name="text" value="0"/>
+            <enum name="phone" value="1"/>
+            <enum name="password" value="2"/>
+            <enum name="email" value="3"/>
+        </attr>
+
+        <attr name="hint" format="string"/>
+
+        <attr name="singleErrorBackgroundColor" format="color"/>
+        <attr name="singleErrorTextColor" format="color"/>
+
+        <attr name="hintItem" format="integer"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ValidatableInputField">
+        <attr name="validating" format="boolean"/>
+    </declare-styleable>
+</resources>
